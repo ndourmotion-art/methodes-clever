@@ -27,12 +27,12 @@ const WorksPage = () => {
 
       <section className="pt-36 md:pt-44 pb-16 md:pb-24">
         <div ref={heading} className="reveal mx-auto max-w-[1600px] px-6 lg:px-10">
-          <div className="eyebrow mb-4 text-foreground/70">All projects</div>
+          <div className="eyebrow mb-4 text-foreground/70">Tous les projets</div>
           <h1 className="font-display uppercase text-[clamp(3rem,10vw,10rem)] font-black leading-[0.88]">
-            All works
+            Réalisations
           </h1>
           <p className="mt-8 max-w-2xl text-xl font-semibold leading-relaxed text-foreground/70 md:text-2xl">
-            Advertising, film, identity and motion projects made for brands across Africa and beyond.
+            Publicité, film, identité et motion design pour des marques en Afrique et au-delà.
           </p>
         </div>
       </section>
@@ -66,7 +66,7 @@ const WorksPage = () => {
                     variant="ghost"
                     size="icon"
                     className="shrink-0 rounded-full border border-foreground/15 bg-background text-foreground group-hover:bg-accent group-hover:text-accent-foreground"
-                    aria-label={`View ${project.title.replace("\n", " ")}`}
+                    aria-label={`Voir ${project.title.replace("\n", " ")}`}
                   >
                     <span>
                       <ArrowUpRight className="h-5 w-5" aria-hidden="true" />
