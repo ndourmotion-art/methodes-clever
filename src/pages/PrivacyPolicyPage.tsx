@@ -158,7 +158,7 @@ const PrivacyPolicyPage = () => {
               <address className="not-italic font-bold text-foreground">
                 The FABRIQUE<br />
                 Kigali, Rwanda<br />
-                E-mail : <a className="text-primary underline underline-offset-4" href="mailto:hello@thefabrique.rw">hello@thefabrique.rw</a>
+                E-mail : <a className="text-primary underline underline-offset-4" href="mailto:hello@methodesclever.com">hello@methodesclever.com</a>
               </address>
               <p>En accédant à ce site et en l'utilisant, vous reconnaissez avoir lu, compris et accepté la présente politique de confidentialité.</p>
             </div>

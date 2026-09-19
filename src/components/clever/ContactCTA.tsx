@@ -97,11 +97,11 @@ export const ContactCTA = () => {
 
           <div className="pt-4 text-base md:text-lg font-semibold text-foreground flex flex-wrap items-center gap-x-6 gap-y-2">
             <span className="text-lg md:text-xl">Écrivez-nous</span>
-            <a href="mailto:hello@thefabrique.rw" className="text-lg md:text-xl font-bold text-foreground hover:text-primary transition-colors">
-              hello@thefabrique.rw
+            <a href="mailto:hello@methodesclever.com" className="text-lg md:text-xl font-bold text-foreground hover:text-primary transition-colors">
+              hello@methodesclever.com
             </a>
             <span className="text-foreground/30">·</span>
-            <span className="text-lg md:text-xl font-bold text-foreground">+250 792 873 396</span>
+            <a href="tel:+221781425680" className="text-lg md:text-xl font-bold text-foreground hover:text-primary transition-colors">+221 78 142 56 80</a>
           </div>
         </form>
       </div>
