@@ -105,7 +105,7 @@ const ProjectCard = ({
 
           <div className="work-project__shade absolute inset-0" />
           <div className="work-project__overlay absolute inset-0 flex flex-col justify-center px-6 md:px-14">
-            <h3 data-no-reveal className="work-project__title whitespace-pre-line font-display uppercase font-sans font-black text-primary-foreground">
+            <h3 data-no-reveal className="work-project__title whitespace-pre-line font-display uppercase font-sans font-black text-foreground">
               {project.title}
             </h3>
           </div>
