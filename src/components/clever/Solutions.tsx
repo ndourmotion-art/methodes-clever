@@ -1,23 +1,23 @@
 import { useReveal } from "@/hooks/useReveal";
 import { Check, X } from "lucide-react";
 
-const formulas = ["Starter", "Growth", "Professional", "Corporate"];
+const formulas = ["Découverte", "Croissance", "Professionnel", "Entreprise"];
 
 type Cell = string | boolean;
 
 const rows: { label: string; values: [Cell, Cell, Cell] }[] = [
-  { label: "Objective", values: ["Build brand awareness", "Generate more leads", "Accelerate your growth"] },
-  { label: "Audit & Strategy", values: [true, true, true] },
-  { label: "Campaign duration", values: ["2 months", "2 months", "3 months"] },
-  { label: "Graphic design", values: ["2 visuals", "4 visuals", "6 visuals"] },
-  { label: "Video production", values: ["1 video", "2 videos", "3 videos"] },
-  { label: "Motion Design / AI", values: [false, "1 animation", "2 animations"] },
-  { label: "Concept & Copywriting", values: [true, true, true] },
-  { label: "Social Ads (Facebook, Instagram Ads)", values: ["Setup", "Management", "Management"] },
-  { label: "Google Ads", values: [false, "Optional", true] },
-  { label: "Media Distribution (TV, Radio...)", values: ["Optional", "Optional", true] },
-  { label: "Campaign report", values: [true, true, true] },
-  { label: "Revisions", values: ["2", "4", "6"] },
+  { label: "Objectif", values: ["Développer la notoriété", "Générer plus de prospects", "Accélérer votre croissance"] },
+  { label: "Audit & Stratégie", values: [true, true, true] },
+  { label: "Durée de la campagne", values: ["2 mois", "2 mois", "3 mois"] },
+  { label: "Design graphique", values: ["2 visuels", "4 visuels", "6 visuels"] },
+  { label: "Production vidéo", values: ["1 vidéo", "2 vidéos", "3 vidéos"] },
+  { label: "Motion design / IA", values: [false, "1 animation", "2 animations"] },
+  { label: "Conception & Rédaction", values: [true, true, true] },
+  { label: "Publicités sociales (Facebook, Instagram)", values: ["Mise en place", "Gestion", "Gestion"] },
+  { label: "Google Ads", values: [false, "En option", true] },
+  { label: "Diffusion média (TV, radio…)", values: ["En option", "En option", true] },
+  { label: "Rapport de campagne", values: [true, true, true] },
+  { label: "Révisions", values: ["2", "4", "6"] },
 ];
 
 const CellContent = ({ value }: { value: Cell }) => {

@@ -10,34 +10,34 @@ export const Founder = () => {
             <div className="relative aspect-square max-w-md rounded-full overflow-hidden bg-muted">
               <img
                 src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=900&q=80"
-                alt="Founder portrait"
+                alt="Portrait du fondateur"
                 loading="lazy"
                 className="absolute inset-0 h-full w-full object-cover"
               />
             </div>
           </div>
           <div className="md:col-span-7">
-            <div className="eyebrow text-foreground/60 mb-4">Founder</div>
+            <div className="eyebrow text-foreground/60 mb-4">Fondateur</div>
             <h2 className="font-display uppercase text-display-md">
-              Guided by vision, <br />
-              <span className="font-bold">driven by craft.</span>
+              Guidés par la vision, <br />
+              <span className="font-bold">portés par le savoir-faire.</span>
             </h2>
             <div className="mt-8 space-y-5 text-base md:text-lg text-foreground/75 max-w-xl">
               <p>
-                Cleverafrica is a small senior team obsessed with the details that make brands unforgettable — typography, motion, storytelling, rhythm.
+                The FABRIQUE est une petite équipe senior obsédée par les détails qui rendent les marques inoubliables — typographie, mouvement, narration, rythme.
               </p>
               <p>
-                We partner with founders, marketing leads, and culture-makers to build identity systems and content that travels far, across the continent and around the world.
+                Nous accompagnons fondateurs, responsables marketing et acteurs culturels pour construire des systèmes d'identité et des contenus qui voyagent loin, sur le continent et dans le monde.
               </p>
               <p>
-                If you're launching something that matters, we'd love to talk about it.
+                Si vous lancez un projet qui compte, nous serions ravis d'en parler.
               </p>
             </div>
             <a
               href="#contact"
               className="mt-10 inline-flex items-center gap-3 rounded-full bg-foreground text-background pl-6 pr-2 py-2 text-base font-medium hover:bg-primary transition-colors group"
             >
-              Work with us
+              Travailler avec nous
               <span className="h-9 w-9 rounded-full bg-background text-foreground flex items-center justify-center group-hover:rotate-45 transition-transform">
                 ↗
               </span>
