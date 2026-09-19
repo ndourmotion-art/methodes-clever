@@ -34,9 +34,9 @@ export const Solutions = () => {
     <section id="solutions" className="bg-background text-foreground py-24 md:py-36">
       <div className="mx-auto max-w-[1200px] px-6 lg:px-10">
         <div ref={head} className="reveal max-w-3xl mb-16 md:mb-24">
-          <div className="eyebrow text-foreground/60 mb-5">Custom packages</div>
+          <div className="eyebrow text-foreground/60 mb-5">Formules sur mesure</div>
           <h2 className="font-display uppercase text-display-lg text-7xl font-sans font-medium">
-            Custom solutions
+            Solutions sur mesure
           </h2>
         </div>
 
@@ -90,7 +90,7 @@ export const Solutions = () => {
 
               {/* CTA row for the first 3 formulas */}
               <div className="p-2.5 md:p-3 border-r border-t border-foreground/10" />
-              {["Starter", "Growth", "Professional"].map((f, i) => (
+              {["Découverte", "Croissance", "Professionnel"].map((f, i) => (
                 <div
                   key={f}
                   className="p-2.5 md:p-3 border-r border-t border-foreground/10 bg-accent/10"
@@ -102,7 +102,7 @@ export const Solutions = () => {
                       ["--sol-delay" as string]: `${380 + i * 260 + rows.length * 55}ms`,
                     }}
                   >
-                    Choose
+                    Choisir
                   </a>
                 </div>
               ))}
@@ -117,7 +117,7 @@ export const Solutions = () => {
                   className="sol-cell text-sm md:text-base font-medium underline underline-offset-4 hover:text-primary transition-colors"
                   style={{ ["--sol-delay" as string]: `${380 + 3 * 260}ms` }}
                 >
-                  Request a quote
+                  Demander un devis
                 </a>
               </div>
             </div>

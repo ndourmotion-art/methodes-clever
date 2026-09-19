@@ -38,12 +38,12 @@ const posters = [
 const heightClasses = ["h-56", "h-72", "h-80", "h-64", "h-96", "h-60"];
 
 const labels = [
-  "Kinetic type", "Motion logo", "Reel edit", "Brand bumper", "Title sequence",
-  "Glyph reveal", "Product spot", "Lower third", "Promo loop", "Social format",
-  "Stinger", "Identity loop", "Animated poster", "Type morph", "Image study",
-  "Liquid type", "Sticker pack", "Bento story", "Editorial cut", "Hero film",
-  "Pitch reel", "Launch teaser", "Manifesto film", "Manifesto", "Loop ad",
-  "VFX study", "AI render", "3D logo", "Sound design", "Director's cut",
+  "Typo cinétique", "Logo animé", "Montage reel", "Bumper de marque", "Générique",
+  "Révélation de glyphe", "Spot produit", "Bandeau", "Boucle promo", "Format social",
+  "Stinger", "Boucle d'identité", "Affiche animée", "Morphose typo", "Étude d'image",
+  "Typo liquide", "Pack de stickers", "Histoire bento", "Montage éditorial", "Film phare",
+  "Reel de pitch", "Teaser de lancement", "Film manifeste", "Manifeste", "Publicité en boucle",
+  "Étude VFX", "Rendu IA", "Logo 3D", "Design sonore", "Version réalisateur",
 ];
 
 const cards = Array.from({ length: 30 }, (_, i) => ({
@@ -111,12 +111,12 @@ export const AnimaIndex = () => {
     <section id="anima" className="py-24 md:py-36">
       <div className="mx-auto max-w-[1400px] px-6 lg:px-10">
         <div ref={ref} className="reveal mb-12 md:mb-16">
-          <div className="eyebrow text-foreground/60 mb-4">Anima index</div>
+          <div className="eyebrow text-foreground/60 mb-4">Index anima</div>
           <h2 className="font-display uppercase text-display-md">
-            Animation & motion <span className="font-bold">index.</span>
+            Index animation & <span className="font-bold">motion.</span>
           </h2>
           <p className="mt-6 max-w-2xl text-base md:text-lg text-foreground/70">
-            A living library of motion experiments — hover a card to play it.
+            Une bibliothèque vivante d'expérimentations en motion — survolez une carte pour la lancer.
           </p>
         </div>
 
