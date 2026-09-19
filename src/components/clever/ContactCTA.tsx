@@ -20,35 +20,35 @@ export const ContactCTA = () => {
         >
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <label htmlFor="name" className={labelClass}>Full name</label>
-              <input id="name" type="text" placeholder="Your name" maxLength={100} className={inputClass} />
+              <label htmlFor="name" className={labelClass}>Nom complet</label>
+              <input id="name" type="text" placeholder="Votre nom" maxLength={100} className={inputClass} />
             </div>
             <div>
-              <label htmlFor="email" className={labelClass}>Email</label>
-              <input id="email" type="email" placeholder="your@email.com" maxLength={255} className={inputClass} />
+              <label htmlFor="email" className={labelClass}>E-mail</label>
+              <input id="email" type="email" placeholder="votre@email.com" maxLength={255} className={inputClass} />
             </div>
           </div>
 
           <div>
-            <label htmlFor="company" className={labelClass}>Company</label>
-            <input id="company" type="text" placeholder="Your company name" maxLength={150} className={inputClass} />
+            <label htmlFor="company" className={labelClass}>Entreprise</label>
+            <input id="company" type="text" placeholder="Nom de votre entreprise" maxLength={150} className={inputClass} />
           </div>
 
           <div>
-            <label htmlFor="service" className={labelClass}>Desired service</label>
+            <label htmlFor="service" className={labelClass}>Service souhaité</label>
             <div className="relative">
               <select
                 id="service"
                 defaultValue=""
                 className={`${inputClass} appearance-none pr-12 font-medium`}
               >
-                <option value="" disabled>Choose a service</option>
-                <option value="activation">Brand activation</option>
-                <option value="branding">Brand identity</option>
-                <option value="production">Production & Direction</option>
-                <option value="design-dynamique">Dynamic design</option>
-                <option value="design-statique">Static design</option>
-                <option value="conception">Concept & Copywriting</option>
+                <option value="" disabled>Choisissez un service</option>
+                <option value="activation">Activation de marque</option>
+                <option value="branding">Identité de marque</option>
+                <option value="production">Production & Réalisation</option>
+                <option value="design-dynamique">Design dynamique</option>
+                <option value="design-statique">Design statique</option>
+                <option value="conception">Conception & Rédaction</option>
               </select>
               <span className="pointer-events-none absolute right-5 top-1/2 -translate-y-1/2 font-semibold text-foreground/80">▾</span>
             </div>
@@ -61,7 +61,7 @@ export const ContactCTA = () => {
                 id="message"
                 rows={6}
                 maxLength={1000}
-                placeholder="Describe your project in a few lines…"
+                placeholder="Décrivez votre projet en quelques lignes…"
                 className={`${inputClass} resize-none`}
               />
               <button
@@ -71,10 +71,10 @@ export const ContactCTA = () => {
               >
                 <Paperclip className="h-7 w-7 text-foreground/70" />
                 <span className="eyebrow leading-tight">
-                  Attach<br />a file<br />or brief
+                  Joindre<br />un fichier<br />ou un brief
                 </span>
                 <span className="text-xs font-semibold uppercase tracking-widest text-foreground/70">
-                  {fileName ?? "(Optional)"}
+                  {fileName ?? "(Optionnel)"}
                 </span>
                 <input
                   ref={fileInputRef}
@@ -89,14 +89,14 @@ export const ContactCTA = () => {
           <div className="pt-4">
             <button
               type="submit"
-              className="inline-flex items-center gap-3 rounded-full bg-foreground text-background px-9 py-5 text-lg font-semibold hover:bg-primary transition-colors"
+              className="inline-flex items-center gap-3 rounded-full bg-foreground text-background px-9 py-5 text-lg font-semibold hover:bg-accent hover:text-accent-foreground transition-colors"
             >
-              Send message <span aria-hidden>↗</span>
+              Envoyer le message <span aria-hidden>↗</span>
             </button>
           </div>
 
           <div className="pt-4 text-base md:text-lg font-semibold text-foreground flex flex-wrap items-center gap-x-6 gap-y-2">
-            <span className="text-lg md:text-xl">Send us an email</span>
+            <span className="text-lg md:text-xl">Écrivez-nous</span>
             <a href="mailto:hello@thefabrique.rw" className="text-lg md:text-xl font-bold text-foreground hover:text-primary transition-colors">
               hello@thefabrique.rw
             </a>

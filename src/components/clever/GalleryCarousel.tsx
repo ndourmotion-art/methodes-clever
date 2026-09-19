@@ -51,7 +51,7 @@ export const GalleryCarousel = ({ images, title }: Props) => {
 
       <button
         type="button"
-        aria-label="Previous image"
+        aria-label="Image précédente"
         onClick={() => emblaApi?.scrollPrev()}
         className="absolute left-3 top-1/2 -translate-y-1/2 rounded-full bg-background/80 backdrop-blur border border-border p-3 hover:bg-background transition-colors"
       >
@@ -59,7 +59,7 @@ export const GalleryCarousel = ({ images, title }: Props) => {
       </button>
       <button
         type="button"
-        aria-label="Next image"
+        aria-label="Image suivante"
         onClick={() => emblaApi?.scrollNext()}
         className="absolute right-3 top-1/2 -translate-y-1/2 rounded-full bg-background/80 backdrop-blur border border-border p-3 hover:bg-background transition-colors"
       >
@@ -71,7 +71,7 @@ export const GalleryCarousel = ({ images, title }: Props) => {
           <button
             key={i}
             type="button"
-            aria-label={`Go to image ${i + 1}`}
+            aria-label={`Aller à l'image ${i + 1}`}
             onClick={() => emblaApi?.scrollTo(i)}
             className={`h-2 rounded-full transition-all ${
               i === selected ? "w-8 bg-foreground" : "w-2 bg-foreground/30 hover:bg-foreground/50"

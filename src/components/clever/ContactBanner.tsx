@@ -6,7 +6,7 @@ export const ContactBanner = () => {
       <div className="mx-auto max-w-[1600px] px-6 lg:px-10">
         <img
           src={banniere4Asset.url}
-          alt="The FABRIQUE — Be impactful with us"
+          alt="The FABRIQUE — Ayez de l'impact avec nous"
           className="w-full h-auto rounded-2xl"
           loading="lazy"
         />

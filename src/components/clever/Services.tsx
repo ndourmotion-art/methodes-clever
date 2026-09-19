@@ -8,12 +8,12 @@ const designDynamique = { url: "/media/design-dynamique.jpg" };
 const designStatique = { url: "/media/design-statique.jpg" };
 
 const services = [
-  { title: "BRAND ACTIVATION", image: activationMarque.url },
-  { title: "BRAND IDENTITY", image: brandingDeMarque.url },
-  { title: "PRODUCTION & DIRECTION", image: productionRealisation.url },
-  { title: "DYNAMIC DESIGN", image: designDynamique.url },
-  { title: "STATIC DESIGN", image: designStatique.url },
-  { title: "CONCEPT & COPYWRITING", image: conceptionRedaction.url },
+  { title: "ACTIVATION DE MARQUE", image: activationMarque.url },
+  { title: "IDENTITÉ DE MARQUE", image: brandingDeMarque.url },
+  { title: "PRODUCTION & RÉALISATION", image: productionRealisation.url },
+  { title: "DESIGN DYNAMIQUE", image: designDynamique.url },
+  { title: "DESIGN STATIQUE", image: designStatique.url },
+  { title: "CONCEPTION & RÉDACTION", image: conceptionRedaction.url },
 ];
 
 // Duration of a "light" cycle: slow fade in + hold + fade out.

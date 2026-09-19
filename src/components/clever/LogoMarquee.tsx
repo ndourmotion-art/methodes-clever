@@ -1,4 +1,4 @@
-const items = Array.from({ length: 12 }, () => "BE VISIBLE");
+const items = Array.from({ length: 12 }, () => "SOYEZ VISIBLE");
 
 export const LogoMarquee = () => {
   const row = [...items, ...items];
