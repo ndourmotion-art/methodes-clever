@@ -9,8 +9,8 @@ const socials = [
 ];
 
 const legalLinks = [
-  { label: "Terms and Policies", to: "/terms-and-policies" },
-  { label: "Privacy Policy", to: "/privacy-policy" },
+  { label: "Conditions et politiques", to: "/terms-and-policies" },
+  { label: "Politique de confidentialité", to: "/privacy-policy" },
 ];
 
 export const Footer = () => {
@@ -27,14 +27,14 @@ export const Footer = () => {
               className="h-auto w-[165px] object-contain object-left"
             />
             <p className="mt-8 max-w-[320px] text-sm font-normal leading-relaxed text-foreground/45">
-              A creative powerhouse for brands, organizations, and startups of
-              all sizes.
+              Une force créative au service des marques, des organisations et
+              des startups de toutes tailles.
             </p>
           </div>
 
           <div className="md:col-span-5 md:pl-8">
             <h4 className="mb-7 text-[10px] font-bold uppercase tracking-[0.2em] text-primary">
-              Legal
+              Mentions légales
             </h4>
             <ul className="space-y-5">
               {legalLinks.map(({ label, to }) => (
@@ -52,7 +52,7 @@ export const Footer = () => {
 
           <div className="md:col-span-2 md:justify-self-end md:pr-4">
             <h4 className="mb-7 text-[10px] font-bold uppercase tracking-[0.2em] text-primary">
-              Connect
+              Suivez-nous
             </h4>
             <ul className="space-y-5">
               {socials.map(({ label, href }) => (
@@ -73,7 +73,7 @@ export const Footer = () => {
 
         <div className="border-t border-foreground/10 py-7">
           <p className="text-[10px] font-medium uppercase tracking-widest text-foreground/35">
-            © 2026 The Fabrique. All rights reserved.
+            © 2026 The Fabrique. Tous droits réservés.
           </p>
         </div>
       </div>

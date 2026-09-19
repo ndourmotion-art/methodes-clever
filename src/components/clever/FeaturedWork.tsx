@@ -105,7 +105,7 @@ const ProjectCard = ({
 
           <div className="work-project__shade absolute inset-0" />
           <div className="work-project__overlay absolute inset-0 flex flex-col justify-center px-6 md:px-14">
-            <h3 data-no-reveal className="work-project__title whitespace-pre-line font-display uppercase font-sans font-black text-primary-foreground">
+            <h3 data-no-reveal className="work-project__title whitespace-pre-line font-display uppercase font-sans font-black text-foreground">
               {project.title}
             </h3>
           </div>
@@ -113,7 +113,7 @@ const ProjectCard = ({
             className={`work-project__view ${cursor.visible ? "is-visible" : ""}`}
             style={{ left: cursor.x, top: cursor.y }}
           >
-            <span>View project</span>
+            <span>Voir le projet</span>
             <ArrowUpRight className="h-5 w-5" aria-hidden="true" />
           </span>
         </div>
@@ -158,8 +158,8 @@ export const FeaturedWork = () => {
       <div className="mx-auto max-w-[1600px] px-6 lg:px-10">
         <div ref={heading} className="reveal mb-16 flex items-end gap-8 md:mb-24">
           <div>
-            <div className="eyebrow text-foreground/60 mb-4">Selected projects</div>
-            <h2 className="font-display uppercase text-display-lg text-7xl font-sans font-medium">Featured works</h2>
+            <div className="eyebrow text-foreground/60 mb-4">Projets sélectionnés</div>
+            <h2 className="font-display uppercase text-display-lg text-7xl font-sans font-medium">Réalisations</h2>
           </div>
         </div>
       </div>
@@ -184,20 +184,20 @@ export const FeaturedWork = () => {
           className="rounded-full bg-foreground px-8 py-6 text-sm font-extrabold uppercase tracking-wide text-background hover:bg-accent hover:text-accent-foreground md:px-10 md:text-base"
         >
           <Link to="/works">
-            View all works
+            Voir toutes les réalisations
             <ArrowUpRight className="h-5 w-5" aria-hidden="true" />
           </Link>
         </Button>
       </div>
 
-      <nav className="work-project-nav" aria-label="Jump between projects">
+      <nav className="work-project-nav" aria-label="Naviguer entre les projets">
         {projects.map((project, index) => (
           <Button
             key={project.slug}
             type="button"
             variant="ghost"
             size="icon"
-            aria-label={`Go to ${project.title}`}
+            aria-label={`Aller à ${project.title}`}
             aria-current={index === activeProject ? "true" : undefined}
             onClick={() => scrollToProject(index)}
             className="work-project-nav__button"

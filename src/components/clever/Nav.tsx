@@ -1,13 +1,12 @@
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-const logoAsset = { url: "/media/fabrique-logo.png" };
-const logo = logoAsset.url;
+const logo = "/media/fabrique-logo.png";
 import { cn } from "@/lib/utils";
 
 const links = [
-  { label: "Works", href: "#work" },
-  { label: "Services", href: "#services" },
-  { label: "About", href: "#about" },
+  { label: "Réalisations", href: "#work" },
+  { label: "Expertise", href: "#services" },
+  { label: "À propos", href: "#about" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -72,7 +71,7 @@ export const Nav = () => {
             }
           }}
           className="flex items-center gap-2 shrink-0"
-          aria-label="Cleverafrica home"
+          aria-label="Accueil The FABRIQUE"
         >
           <img src={logo} alt="The FABRIQUE" className="h-14 md:h-16 w-auto" />
         </Link>
@@ -100,7 +99,7 @@ export const Nav = () => {
         <button
           onClick={() => setOpen((v) => !v)}
           className="md:hidden p-2 -mr-2"
-          aria-label="Toggle menu"
+          aria-label="Ouvrir le menu"
         >
           <div className="w-6 flex flex-col gap-1.5">
             <span className={cn("h-0.5 bg-foreground transition-transform", open && "translate-y-2 rotate-45")} />
@@ -130,7 +129,7 @@ export const Nav = () => {
             onClick={(e) => { setOpen(false); handleClick(e, "#contact"); }}
             className="mt-2 inline-flex items-center justify-between rounded-xl bg-foreground text-background px-4 py-3 text-base font-medium"
           >
-            Request a quote <span>→</span>
+            Demander un devis <span>→</span>
           </a>
 
         </div>

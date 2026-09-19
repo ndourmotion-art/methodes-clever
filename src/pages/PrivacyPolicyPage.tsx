@@ -5,103 +5,103 @@ import { useLenis } from "@/hooks/useLenis";
 
 const sections = [
   {
-    title: "1. Information We Collect",
+    title: "1. Informations que nous collectons",
     paragraphs: [
-      "We collect information in the following ways when you visit and use our website.",
+      "Nous collectons des informations de différentes manières lorsque vous visitez et utilisez notre site.",
     ],
   },
   {
-    title: "2. Personal Information",
+    title: "2. Données personnelles",
     paragraphs: [
-      "When visiting our services, we may collect the following personal information:",
+      "Lors de l'utilisation de nos services, nous pouvons collecter les données personnelles suivantes :",
     ],
     items: [
-      "Name",
-      "Email address",
-      "Any other information you provide directly to us",
+      "Nom",
+      "Adresse e-mail",
+      "Toute autre information que vous nous transmettez directement",
     ],
   },
   {
-    title: "3. Usage Data",
+    title: "3. Données d'utilisation",
     paragraphs: [
-      "We may also collect information on how our service is accessed and used, including:",
+      "Nous pouvons également collecter des informations sur la manière dont notre service est consulté et utilisé, notamment :",
     ],
     items: [
-      "IP address",
-      "Browser type",
-      "Device information",
-      "Pages visited and time spent on each page",
-      "Other diagnostic data",
+      "Adresse IP",
+      "Type de navigateur",
+      "Informations sur l'appareil",
+      "Pages visitées et temps passé sur chaque page",
+      "Autres données de diagnostic",
     ],
   },
   {
-    title: "4. Cookies and Tracking Technologies",
+    title: "4. Cookies et technologies de suivi",
     paragraphs: [
-      "We use cookies and similar tracking technologies to track the activity on our service and hold certain information. Cookies are files with small amounts of data that may include an anonymous unique identifier.",
-      "You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some parts of our service.",
+      "Nous utilisons des cookies et technologies de suivi similaires pour suivre l'activité sur notre service et conserver certaines informations. Les cookies sont de petits fichiers de données pouvant contenir un identifiant unique anonyme.",
+      "Vous pouvez configurer votre navigateur pour refuser tous les cookies ou pour être averti lors de leur envoi. Si vous n'acceptez pas les cookies, certaines parties de notre service peuvent ne pas fonctionner.",
     ],
   },
   {
-    title: "5. How We Use Your Information",
+    title: "5. Utilisation de vos informations",
     paragraphs: [
-      "We use the collected data for various purposes:",
+      "Nous utilisons les données collectées à différentes fins :",
     ],
     items: [
-      "To provide and maintain our service",
-      "To notify you about changes to our service",
-      "To allow you to participate in interactive features",
+      "Fournir et maintenir notre service",
+      "Vous informer des évolutions de notre service",
+      "Vous permettre de participer aux fonctionnalités interactives",
     ],
   },
   {
-    title: "6. Sharing of Your Information",
+    title: "6. Partage de vos informations",
     paragraphs: [
-      "We do not sell, trade, or otherwise transfer your personal information to outside parties except as described in this Privacy Policy.",
-      "We may share information with trusted service providers who assist us in operating our website, conducting our business, or servicing you, so long as those parties agree to keep this information confidential.",
-      "We may also disclose information when we believe in good faith that disclosure is necessary to protect our rights, comply with legal processes, or respond to lawful requests from public authorities.",
+      "Nous ne vendons, n'échangeons et ne transférons pas vos données personnelles à des tiers, sauf dans les cas décrits dans la présente politique de confidentialité.",
+      "Nous pouvons partager des informations avec des prestataires de confiance qui nous aident à exploiter notre site, à mener nos activités ou à vous servir, dès lors qu'ils s'engagent à en préserver la confidentialité.",
+      "Nous pouvons également divulguer des informations lorsque nous estimons de bonne foi que cela est nécessaire pour protéger nos droits, respecter une procédure légale ou répondre à une demande légitime des autorités.",
     ],
   },
   {
-    title: "7. Data Security",
+    title: "7. Sécurité des données",
     paragraphs: [
-      "We take reasonable measures to protect the information we collect from loss, misuse, and unauthorized access.",
-      "However, no method of transmission over the internet or electronic storage is completely secure, and we cannot guarantee absolute security.",
+      "Nous prenons des mesures raisonnables pour protéger les informations collectées contre la perte, l'usage abusif et l'accès non autorisé.",
+      "Aucune méthode de transmission sur Internet ou de stockage électronique n'étant totalement sûre, nous ne pouvons cependant garantir une sécurité absolue.",
     ],
   },
   {
-    title: "8. Your Data Rights",
+    title: "8. Vos droits",
     paragraphs: [
-      "Depending on your location, you may have the right to:",
+      "Selon votre lieu de résidence, vous pouvez disposer du droit de :",
     ],
     items: [
-      "Access the personal information we hold about you;",
-      "Request correction of inaccurate or incomplete information;",
-      "Request deletion of your personal information;",
-      "Withdraw consent to the processing of your data.",
+      "Accéder aux données personnelles que nous détenons à votre sujet ;",
+      "Demander la rectification d'informations inexactes ou incomplètes ;",
+      "Demander la suppression de vos données personnelles ;",
+      "Retirer votre consentement au traitement de vos données.",
     ],
     after: [
-      "To exercise any of these rights, please contact us using the details provided below.",
+      "Pour exercer l'un de ces droits, veuillez nous contacter à l'aide des coordonnées ci-dessous.",
     ],
   },
   {
-    title: "9. Children's Privacy",
+    title: "9. Protection des mineurs",
     paragraphs: [
-      "Our website is not directed to children under the age of 13, and we do not knowingly collect personal information from children.",
-      "If you believe that a child has provided us with personal information, please contact us and we will take steps to delete such information.",
+      "Notre site ne s'adresse pas aux enfants de moins de 13 ans et nous ne collectons pas sciemment de données personnelles les concernant.",
+      "Si vous pensez qu'un enfant nous a communiqué des données personnelles, contactez-nous et nous prendrons les mesures nécessaires pour les supprimer.",
     ],
   },
   {
-    title: "10. Changes to This Privacy Policy",
+    title: "10. Modifications de cette politique",
     paragraphs: [
-      "We may update this Privacy Policy from time to time to reflect changes in our practices or legal requirements.",
-      "Any updated version will be published on this page with a revised “Effective Date”.",
-      "Your continued use of the website after changes are published constitutes your acceptance of the updated Privacy Policy.",
+      "Nous pouvons mettre à jour cette politique de confidentialité de temps à autre afin de refléter l'évolution de nos pratiques ou des exigences légales.",
+      "Toute version actualisée sera publiée sur cette page avec une « date d'entrée en vigueur » révisée.",
+      "La poursuite de votre utilisation du site après publication des modifications vaut acceptation de la politique mise à jour.",
     ],
   },
   {
-    title: "11. Governing Law",
+    title: "11. Droit applicable",
     paragraphs: [
-      "This Privacy Policy shall be governed by and interpreted in accordance with the laws of the Republic of Rwanda, unless otherwise required by applicable law.",
-      "Any dispute relating to the use of this website shall be subject to the jurisdiction of the competent courts of Rwanda.",
+      "La présente politique de confidentialité est régie et interprétée conformément aux lois de la République du Rwanda, sauf disposition contraire de la loi applicable.",
+      "Tout litige relatif à l'utilisation de ce site relève de la compétence des tribunaux du Rwanda.",
     ],
   },
 ];
@@ -118,18 +118,19 @@ const PrivacyPolicyPage = () => {
       <Nav />
       <article className="mx-auto max-w-[1100px] px-6 pb-24 pt-36 md:pb-36 md:pt-44 lg:px-10">
         <header className="border-b border-foreground/15 pb-12 md:pb-16">
-          <p className="eyebrow mb-5 text-primary">Effective Date: June 23, 2024</p>
+          <p className="eyebrow mb-5 text-primary">Date d'entrée en vigueur : 23 juin 2024</p>
           <h1 className="font-display text-[clamp(3rem,8vw,7rem)] font-black uppercase leading-[0.9]">
-            Privacy Policy
+            Politique de confidentialité
           </h1>
           <div className="mt-8 max-w-4xl space-y-5 text-lg font-medium leading-relaxed text-foreground/75 md:text-xl">
             <p>
-              This Privacy Policy describes how The FABRIQUE (“The FABRIQUE”, “we”, “our”, or “us”) collects, uses, and
-              protects information when you visit our website and use our services.
+              La présente politique de confidentialité décrit comment The FABRIQUE (« The FABRIQUE », « nous », « notre »
+              ou « nos ») collecte, utilise et protège les informations lorsque vous visitez notre site et utilisez nos
+              services.
             </p>
             <p>
-              By accessing or using our website, you consent to the collection and use of information as described in this
-              Privacy Policy.
+              En accédant à notre site ou en l'utilisant, vous consentez à la collecte et à l'utilisation des informations
+              telles que décrites dans cette politique de confidentialité.
             </p>
           </div>
         </header>
@@ -151,15 +152,15 @@ const PrivacyPolicyPage = () => {
           ))}
 
           <section className="grid gap-5 py-10 md:grid-cols-[minmax(15rem,0.7fr)_1.3fr] md:gap-14 md:py-14">
-            <h2 className="font-display text-2xl font-black uppercase leading-tight md:text-3xl">12. Contact Us</h2>
+            <h2 className="font-display text-2xl font-black uppercase leading-tight md:text-3xl">12. Nous contacter</h2>
             <div className="space-y-5 text-base font-medium leading-relaxed text-foreground/75 md:text-lg">
-              <p>If you have any questions regarding this Privacy Policy or the use of our website, you can contact us at:</p>
+              <p>Pour toute question relative à cette politique de confidentialité ou à l'utilisation de notre site, vous pouvez nous contacter :</p>
               <address className="not-italic font-bold text-foreground">
                 The FABRIQUE<br />
                 Kigali, Rwanda<br />
-                Email: <a className="text-primary underline underline-offset-4" href="mailto:hello@thefabrique.rw">hello@thefabrique.rw</a>
+                E-mail : <a className="text-primary underline underline-offset-4" href="mailto:hello@thefabrique.rw">hello@thefabrique.rw</a>
               </address>
-              <p>By accessing and using this website, you acknowledge that you have read, understood, and agree to this Privacy Policy.</p>
+              <p>En accédant à ce site et en l'utilisant, vous reconnaissez avoir lu, compris et accepté la présente politique de confidentialité.</p>
             </div>
           </section>
         </div>
