@@ -5,132 +5,132 @@ import { useLenis } from "@/hooks/useLenis";
 
 const sections = [
   {
-    title: "1. Use of Our Website",
+    title: "1. Utilisation de notre site",
     paragraphs: [
-      "The FABRIQUE website is provided for general information about our company, creative work, services, portfolio, projects, and activities.",
-      "You agree to use this website only for lawful purposes and in a manner that does not:",
+      "Le site de The FABRIQUE est mis à disposition à titre d'information générale sur notre entreprise, notre travail créatif, nos services, notre portfolio, nos projets et nos activités.",
+      "Vous vous engagez à utiliser ce site uniquement à des fins licites et d'une manière qui ne saurait :",
     ],
     items: [
-      "Violate any applicable law or regulation;",
-      "Infringe the rights of The FABRIQUE or any third party;",
-      "Attempt to gain unauthorized access to our website, systems, or data;",
-      "Interfere with the operation, security, or availability of the website;",
-      "Use our content for fraudulent, misleading, or unauthorized commercial purposes.",
+      "Enfreindre une loi ou une réglementation applicable ;",
+      "Porter atteinte aux droits de The FABRIQUE ou de tout tiers ;",
+      "Tenter d'accéder sans autorisation à notre site, nos systèmes ou nos données ;",
+      "Perturber le fonctionnement, la sécurité ou la disponibilité du site ;",
+      "Utiliser nos contenus à des fins frauduleuses, trompeuses ou commerciales non autorisées.",
     ],
   },
   {
-    title: "2. Intellectual Property",
+    title: "2. Propriété intellectuelle",
     paragraphs: [
-      "Unless otherwise indicated, all content appearing on this website—including but not limited to:",
+      "Sauf indication contraire, l'ensemble des contenus présents sur ce site — notamment, sans s'y limiter :",
     ],
     items: [
-      "The FABRIQUE name and logo;",
-      "Text and written content;",
-      "Photographs and images;",
-      "Videos and films;",
-      "Graphics and illustrations;",
-      "Animations and 3D content;",
-      "Creative concepts and visual materials;",
-      "Website design and layout;",
-      "Other original materials;",
+      "Le nom et le logo The FABRIQUE ;",
+      "Les textes et contenus rédactionnels ;",
+      "Les photographies et images ;",
+      "Les vidéos et films ;",
+      "Les graphismes et illustrations ;",
+      "Les animations et contenus 3D ;",
+      "Les concepts créatifs et supports visuels ;",
+      "Le design et la mise en page du site ;",
+      "Tout autre contenu original ;",
     ],
     after: [
-      "is owned by or licensed to The FABRIQUE and is protected by applicable intellectual-property laws.",
-      "You may view and access the content of this website for your personal or informational use.",
-      "You may not reproduce, copy, modify, distribute, republish, sell, license, or commercially exploit our website content without prior written permission from The FABRIQUE.",
+      "appartient à The FABRIQUE ou lui est concédé sous licence, et est protégé par les lois applicables en matière de propriété intellectuelle.",
+      "Vous pouvez consulter et accéder aux contenus de ce site pour un usage personnel ou informatif.",
+      "Vous ne pouvez pas reproduire, copier, modifier, distribuer, republier, vendre, concéder sous licence ou exploiter commercialement les contenus de notre site sans l'autorisation écrite préalable de The FABRIQUE.",
     ],
   },
   {
-    title: "3. Portfolio and Third-Party Work",
+    title: "3. Portfolio et travaux de tiers",
     paragraphs: [
-      "Our website may display creative work, campaigns, advertisements, films, photographs, brands, logos, or projects produced by The FABRIQUE for clients or other organizations.",
-      "The appearance of third-party trademarks, logos, brands, or client work on our website does not necessarily mean that The FABRIQUE owns those trademarks or brands.",
-      "Such materials remain the property of their respective owners and are displayed for portfolio, editorial, informational, or promotional purposes.",
+      "Notre site peut présenter des travaux créatifs, campagnes, publicités, films, photographies, marques, logos ou projets réalisés par The FABRIQUE pour des clients ou d'autres organisations.",
+      "La présence de marques, logos ou travaux de tiers sur notre site ne signifie pas nécessairement que The FABRIQUE en est le propriétaire.",
+      "Ces éléments restent la propriété de leurs détenteurs respectifs et sont présentés à des fins de portfolio, éditoriales, informatives ou promotionnelles.",
     ],
   },
   {
-    title: "4. Accuracy of Information",
+    title: "4. Exactitude des informations",
     paragraphs: [
-      "We make reasonable efforts to ensure that the information presented on this website is accurate and up to date.",
-      "However, we do not guarantee that all information will always be complete, accurate, current, or free from errors.",
-      "The FABRIQUE reserves the right to modify, update, remove, or change website content at any time without prior notice.",
+      "Nous mettons en œuvre des efforts raisonnables pour que les informations présentées sur ce site soient exactes et à jour.",
+      "Nous ne garantissons toutefois pas que toutes les informations seront à tout moment complètes, exactes, actuelles ou exemptes d'erreurs.",
+      "The FABRIQUE se réserve le droit de modifier, mettre à jour, supprimer ou changer les contenus du site à tout moment et sans préavis.",
     ],
   },
   {
-    title: "5. Website Availability",
+    title: "5. Disponibilité du site",
     paragraphs: [
-      "We aim to keep our website accessible and operational. However, we do not guarantee that the website will always be available, uninterrupted, secure, or free from technical errors.",
-      "The website may occasionally be unavailable due to maintenance, technical problems, updates, hosting issues, or circumstances beyond our reasonable control.",
+      "Nous nous efforçons de maintenir notre site accessible et opérationnel. Nous ne garantissons cependant pas qu'il sera toujours disponible, ininterrompu, sécurisé ou exempt d'erreurs techniques.",
+      "Le site peut occasionnellement être indisponible en raison d'opérations de maintenance, de problèmes techniques, de mises à jour, d'incidents d'hébergement ou de circonstances échappant à notre contrôle raisonnable.",
     ],
   },
   {
-    title: "6. External Links",
+    title: "6. Liens externes",
     paragraphs: [
-      "Our website may contain links to third-party websites, platforms, social media accounts, or other external resources.",
-      "These links are provided for convenience and informational purposes.",
-      "The FABRIQUE does not control and is not responsible for the content, availability, security, privacy practices, or policies of third-party websites.",
-      "Visiting external websites through links on our website is done at your own discretion.",
+      "Notre site peut contenir des liens vers des sites tiers, plateformes, comptes de réseaux sociaux ou autres ressources externes.",
+      "Ces liens sont fournis à titre pratique et informatif.",
+      "The FABRIQUE ne contrôle pas et n'est pas responsable du contenu, de la disponibilité, de la sécurité, des pratiques de confidentialité ou des politiques des sites tiers.",
+      "La consultation de sites externes via les liens présents sur notre site relève de votre seule initiative.",
     ],
   },
   {
-    title: "7. User Communications",
+    title: "7. Communications des utilisateurs",
     paragraphs: [
-      "If you contact The FABRIQUE through our website, including by email, contact forms, or other communication channels, you agree to provide information that is accurate and not misleading.",
-      "You must not use our communication channels to submit unlawful, abusive, defamatory, fraudulent, threatening, or malicious content.",
+      "Si vous contactez The FABRIQUE via notre site, par e-mail, formulaire de contact ou tout autre canal de communication, vous vous engagez à fournir des informations exactes et non trompeuses.",
+      "Vous ne devez pas utiliser nos canaux de communication pour transmettre des contenus illicites, abusifs, diffamatoires, frauduleux, menaçants ou malveillants.",
     ],
   },
   {
-    title: "8. Privacy",
+    title: "8. Confidentialité",
     paragraphs: [
-      "We respect the privacy of visitors to our website.",
-      "Information that you voluntarily provide to us, such as your name, email address, company information, or other contact details, may be used to respond to your inquiries, communicate with you, and provide information about our services.",
-      "We will handle personal information in accordance with applicable privacy and data-protection laws.",
+      "Nous respectons la vie privée des visiteurs de notre site.",
+      "Les informations que vous nous transmettez volontairement, telles que votre nom, votre adresse e-mail, les informations relatives à votre entreprise ou d'autres coordonnées, peuvent être utilisées pour répondre à vos demandes, communiquer avec vous et vous informer sur nos services.",
+      "Nous traitons les données personnelles conformément aux lois applicables en matière de confidentialité et de protection des données.",
     ],
   },
   {
-    title: "9. Cookies and Website Technologies",
+    title: "9. Cookies et technologies du site",
     paragraphs: [
-      "Our website may use cookies or similar technologies to improve website functionality, understand website usage, analyze traffic, and enhance the user experience.",
-      "Where required by applicable law, appropriate consent mechanisms may be used.",
-      "You may also be able to manage or disable cookies through your browser settings. Disabling certain cookies may affect some website functionality.",
+      "Notre site peut utiliser des cookies ou technologies similaires afin d'améliorer son fonctionnement, comprendre son utilisation, analyser le trafic et enrichir l'expérience utilisateur.",
+      "Lorsque la loi applicable l'exige, des mécanismes de consentement appropriés peuvent être mis en place.",
+      "Vous pouvez également gérer ou désactiver les cookies dans les réglages de votre navigateur. La désactivation de certains cookies peut affecter certaines fonctionnalités du site.",
     ],
   },
   {
-    title: "10. Disclaimer",
+    title: "10. Avertissement",
     paragraphs: [
-      "The content of this website is provided for general informational purposes.",
-      "Nothing on this website should be considered professional, legal, financial, or other specialized advice.",
-      "The FABRIQUE does not guarantee that the information, materials, or content available through the website will meet your particular requirements or expectations.",
+      "Les contenus de ce site sont fournis à titre d'information générale.",
+      "Rien sur ce site ne doit être considéré comme un conseil professionnel, juridique, financier ou spécialisé.",
+      "The FABRIQUE ne garantit pas que les informations, supports ou contenus disponibles via le site répondront à vos besoins ou attentes particuliers.",
     ],
   },
   {
-    title: "11. Limitation of Liability",
+    title: "11. Limitation de responsabilité",
     paragraphs: [
-      "To the extent permitted by applicable law, The FABRIQUE will not be liable for any direct, indirect, incidental, consequential, or other losses arising from or related to your use of, or inability to use, this website.",
-      "This includes, without limitation, losses resulting from:",
+      "Dans les limites autorisées par la loi applicable, The FABRIQUE ne saurait être tenue responsable de tout préjudice direct, indirect, accessoire, consécutif ou autre résultant de l'utilisation ou de l'impossibilité d'utiliser ce site.",
+      "Cela inclut, sans limitation, les préjudices résultant de :",
     ],
     items: [
-      "Website interruptions;",
-      "Technical errors;",
-      "Loss of data;",
-      "Third-party websites or services;",
-      "Reliance on information published on the website;",
-      "Unauthorized access beyond our reasonable control.",
+      "Interruptions du site ;",
+      "Erreurs techniques ;",
+      "Perte de données ;",
+      "Sites ou services tiers ;",
+      "Confiance accordée aux informations publiées sur le site ;",
+      "Accès non autorisé échappant à notre contrôle raisonnable.",
     ],
   },
   {
-    title: "12. Changes to These Terms",
+    title: "12. Modification des présentes conditions",
     paragraphs: [
-      "We may update these Terms and Policies from time to time to reflect changes to our website, services, legal requirements, or business practices.",
-      "Any updated version will be published on this page with a revised “Last Updated” date.",
-      "Your continued use of the website after changes are published constitutes your acceptance of the updated Terms and Policies.",
+      "Nous pouvons mettre à jour ces conditions et politiques de temps à autre afin de refléter les évolutions de notre site, de nos services, des exigences légales ou de nos pratiques.",
+      "Toute version actualisée sera publiée sur cette page avec une date de « dernière mise à jour » révisée.",
+      "La poursuite de votre utilisation du site après publication des modifications vaut acceptation des conditions et politiques mises à jour.",
     ],
   },
   {
-    title: "13. Governing Law",
+    title: "13. Droit applicable",
     paragraphs: [
-      "These Terms and Policies shall be governed by and interpreted in accordance with the laws of the Republic of Rwanda, unless otherwise required by applicable law.",
-      "Any dispute relating to the use of this website shall be subject to the jurisdiction of the competent courts of Rwanda.",
+      "Les présentes conditions et politiques sont régies et interprétées conformément aux lois de la République du Rwanda, sauf disposition contraire de la loi applicable.",
+      "Tout litige relatif à l'utilisation de ce site relève de la compétence des tribunaux du Rwanda.",
     ],
   },
 ];
@@ -147,16 +147,16 @@ const TermsAndPoliciesPage = () => {
       <Nav />
       <article className="mx-auto max-w-[1100px] px-6 pb-24 pt-36 md:pb-36 md:pt-44 lg:px-10">
         <header className="border-b border-foreground/15 pb-12 md:pb-16">
-          <p className="eyebrow mb-5 text-primary">Last Updated: September 2026</p>
+          <p className="eyebrow mb-5 text-primary">Dernière mise à jour : septembre 2026</p>
           <h1 className="font-display text-[clamp(3rem,8vw,7rem)] font-black uppercase leading-[0.9]">
-            Terms and Policies
+            Conditions et politiques
           </h1>
           <div className="mt-8 max-w-4xl space-y-5 text-lg font-medium leading-relaxed text-foreground/75 md:text-xl">
-            <p>Welcome to the website of The FABRIQUE (“The FABRIQUE”, “we”, “our”, or “us”).</p>
+            <p>Bienvenue sur le site de The FABRIQUE (« The FABRIQUE », « nous », « notre » ou « nos »).</p>
             <p>
-              These Terms and Policies govern your use of our website and its content. By accessing or using this website,
-              you agree to comply with these terms. If you do not agree with any part of these terms, please discontinue
-              your use of the website.
+              Les présentes conditions et politiques régissent votre utilisation de notre site et de ses contenus. En
+              accédant à ce site ou en l'utilisant, vous acceptez de les respecter. Si vous n'acceptez pas l'une de ces
+              conditions, veuillez cesser d'utiliser le site.
             </p>
           </div>
         </header>
@@ -178,15 +178,15 @@ const TermsAndPoliciesPage = () => {
           ))}
 
           <section className="grid gap-5 py-10 md:grid-cols-[minmax(15rem,0.7fr)_1.3fr] md:gap-14 md:py-14">
-            <h2 className="font-display text-2xl font-black uppercase leading-tight md:text-3xl">14. Contact Us</h2>
+            <h2 className="font-display text-2xl font-black uppercase leading-tight md:text-3xl">14. Nous contacter</h2>
             <div className="space-y-5 text-base font-medium leading-relaxed text-foreground/75 md:text-lg">
-              <p>If you have any questions regarding these Terms and Policies or the use of our website, you can contact us at:</p>
+              <p>Pour toute question relative aux présentes conditions et politiques ou à l'utilisation de notre site, vous pouvez nous contacter :</p>
               <address className="not-italic font-bold text-foreground">
                 The FABRIQUE<br />
                 Kigali, Rwanda<br />
-                Email: <a className="text-primary underline underline-offset-4" href="mailto:hello@thefabrique.rw">hello@thefabrique.rw</a>
+                E-mail : <a className="text-primary underline underline-offset-4" href="mailto:hello@thefabrique.rw">hello@thefabrique.rw</a>
               </address>
-              <p>By accessing and using this website, you acknowledge that you have read, understood, and agree to these Terms and Policies.</p>
+              <p>En accédant à ce site et en l'utilisant, vous reconnaissez avoir lu, compris et accepté les présentes conditions et politiques.</p>
             </div>
           </section>
         </div>
