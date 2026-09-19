@@ -73,7 +73,7 @@ export const Nav = () => {
           className="flex items-center gap-2 shrink-0"
           aria-label="Accueil The FABRIQUE"
         >
-          <img src={logo} alt="The FABRIQUE" className="h-14 md:h-16 w-auto" />
+          <img src={logo} alt="The FABRIQUE" className="h-9 md:h-11 w-auto" />
         </Link>
 
         <div className="hidden md:flex">
@@ -83,7 +83,7 @@ export const Nav = () => {
                 key={l.href}
                 href={location.pathname === "/" ? l.href : `/${l.href}`}
                 onClick={(e) => handleClick(e, l.href)}
-                className="menu-link px-4 py-1.5 text-lg font-semibold text-foreground hover:text-foreground transition-colors rounded-full hover:bg-accent/15"
+                className="menu-link px-3 py-1.5 text-sm font-semibold text-foreground hover:text-foreground transition-colors rounded-full hover:bg-accent/15"
               >
                 <span className="menu-link-text">
                   <span className="menu-link-label menu-link-label-top">{l.label}</span>
@@ -116,7 +116,7 @@ export const Nav = () => {
               key={l.href}
               href={location.pathname === "/" ? l.href : `/${l.href}`}
               onClick={(e) => { setOpen(false); handleClick(e, l.href); }}
-              className="menu-link px-4 py-3 rounded-xl text-lg font-medium hover:bg-accent/10"
+              className="menu-link px-4 py-3 rounded-xl text-base font-medium hover:bg-accent/10"
             >
               <span className="menu-link-text">
                 <span className="menu-link-label menu-link-label-top">{l.label}</span>
