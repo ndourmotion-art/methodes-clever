@@ -7,7 +7,7 @@ export const MadeWithPassion = () => {
       <div ref={ref} className="reveal mx-auto max-w-[1600px] px-2 md:px-4 text-center overflow-hidden">
         <h2 className="font-display uppercase font-bold leading-[0.9] tracking-normal text-[9vw] md:text-[6.2vw] whitespace-nowrap">
           <span className="block">
-            Fait avec <span style={{ color: "#4D13B2" }}>passion</span>
+            Fait avec <span className="text-primary">passion</span>
           </span>
         </h2>
       </div>

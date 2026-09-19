@@ -26,14 +26,14 @@ export const Footer = () => {
               alt="The FABRIQUE"
               className="h-auto w-[165px] object-contain object-left"
             />
-            <p className="mt-8 max-w-[320px] text-sm font-normal leading-relaxed text-foreground/45">
+            <p className="mt-8 max-w-[380px] text-base md:text-lg font-normal leading-relaxed text-foreground/60">
               Une force créative au service des marques, des organisations et
               des startups de toutes tailles.
             </p>
           </div>
 
           <div className="md:col-span-5 md:pl-8">
-            <h4 className="mb-7 text-[10px] font-bold uppercase tracking-[0.2em] text-primary">
+            <h4 className="mb-7 text-xs font-bold uppercase tracking-[0.2em] text-primary">
               Mentions légales
             </h4>
             <ul className="space-y-5">
@@ -41,7 +41,7 @@ export const Footer = () => {
                 <li key={label}>
                   <Link
                     to={to}
-                    className="text-sm font-normal text-foreground transition-colors duration-200 hover:text-primary"
+                    className="text-base md:text-lg font-normal text-foreground transition-colors duration-200 hover:text-primary"
                   >
                     {label}
                   </Link>
@@ -51,7 +51,7 @@ export const Footer = () => {
           </div>
 
           <div className="md:col-span-2 md:justify-self-end md:pr-4">
-            <h4 className="mb-7 text-[10px] font-bold uppercase tracking-[0.2em] text-primary">
+            <h4 className="mb-7 text-xs font-bold uppercase tracking-[0.2em] text-primary">
               Suivez-nous
             </h4>
             <ul className="space-y-5">
@@ -61,7 +61,7 @@ export const Footer = () => {
                     href={href}
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-block border-b border-foreground/20 text-sm font-normal text-foreground transition-colors duration-200 hover:border-accent hover:text-primary"
+                    className="inline-block border-b border-foreground/30 text-base md:text-lg font-normal text-foreground transition-colors duration-200 hover:border-accent hover:text-primary"
                   >
                     {label}
                   </a>
@@ -72,7 +72,7 @@ export const Footer = () => {
         </div>
 
         <div className="border-t border-foreground/10 py-7">
-          <p className="text-[10px] font-medium uppercase tracking-widest text-foreground/35">
+          <p className="text-xs font-medium uppercase tracking-widest text-foreground/50">
             © 2026 The Fabrique. Tous droits réservés.
           </p>
         </div>

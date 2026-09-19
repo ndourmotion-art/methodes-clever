@@ -8,8 +8,8 @@ export const ContactCTA = () => {
   const [fileName, setFileName] = useState<string | null>(null);
 
   const inputClass =
-    "w-full rounded-2xl bg-foreground/10 border border-foreground/10 px-6 py-5 text-lg text-foreground font-semibold placeholder:text-foreground/60 focus:outline-none focus:ring-2 focus:ring-primary/40 focus:border-transparent transition";
-  const labelClass = "block eyebrow text-foreground/70 mb-3 font-semibold";
+    "w-full rounded-2xl bg-foreground/10 border border-foreground/10 px-6 py-5 text-xl text-foreground font-semibold placeholder:text-foreground/60 focus:outline-none focus:ring-2 focus:ring-primary/40 focus:border-transparent transition";
+  const labelClass = "block text-sm eyebrow text-foreground/70 mb-3 font-semibold";
 
   return (
     <section id="contact" className="py-24 md:py-32">
@@ -89,7 +89,7 @@ export const ContactCTA = () => {
           <div className="pt-4">
             <button
               type="submit"
-              className="inline-flex items-center gap-3 rounded-full bg-foreground text-background px-9 py-5 text-lg font-semibold hover:bg-accent hover:text-accent-foreground transition-colors"
+              className="inline-flex items-center gap-3 rounded-full bg-foreground text-background px-10 py-5 text-xl font-semibold hover:bg-accent hover:text-accent-foreground transition-colors"
             >
               Envoyer le message <span aria-hidden>↗</span>
             </button>

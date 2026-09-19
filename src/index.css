@@ -7,8 +7,8 @@
 
 @layer base {
   :root {
-    /* Charcoal canvas with brand blue & green accents */
-    --background: 0 0% 20%;           /* #333333 */
+    /* Deep charcoal canvas with brand blue & green accents */
+    --background: 0 0% 8%;            /* #151515 */
     --foreground: 0 0% 98%;           /* near-white */
 
     --card: 0 0% 24%;
