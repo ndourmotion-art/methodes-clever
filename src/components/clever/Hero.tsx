@@ -33,39 +33,39 @@ export const Hero = ({ mediaVisible = true, contentVisible = true }: HeroProps) 
         <div className="hero-opening__media relative aspect-[4/3] md:aspect-[16/10] w-full overflow-hidden rounded-2xl bg-muted">
           <img
             src={heroImage}
-            alt="Clever Africa hero"
+            alt="The FABRIQUE — visuel d'ouverture"
             className="absolute inset-0 h-full w-full object-cover"
           />
 
           <div className="absolute inset-0 flex flex-col justify-center px-6 md:px-14">
             <h1 className="hero-opening__title font-display uppercase tracking-tight leading-[0.9]" data-no-reveal>
-              <span className="hero-opening__line block font-sans font-black text-background text-[clamp(1.85rem,4.85vw,3.6rem)] drop-shadow-[0_2px_10px_rgba(0,0,0,0.35)]">
-                <WrittenLine text="Creative" start={390} />
+              <span className="hero-opening__line block font-sans font-black text-foreground text-[clamp(1.85rem,4.85vw,3.6rem)] drop-shadow-[0_2px_10px_rgba(0,0,0,0.45)]">
+                <WrittenLine text="Force" start={390} />
               </span>
-              <span className="hero-opening__line hero-opening__line--second block font-sans font-black text-accent text-[clamp(1.85rem,4.85vw,3.6rem)] drop-shadow-[0_2px_10px_rgba(0,0,0,0.35)]">
-                <WrittenLine text="Powerhouse" start={730} />
+              <span className="hero-opening__line hero-opening__line--second block font-sans font-black text-accent text-[clamp(1.85rem,4.85vw,3.6rem)] drop-shadow-[0_2px_10px_rgba(0,0,0,0.45)]">
+                <WrittenLine text="Créative" start={730} />
               </span>
             </h1>
 
-            <div className="hero-opening__support eyebrow text-background/90 mt-6 md:mt-8 text-[0.7rem] md:text-sm tracking-[0.18em]" data-no-reveal>
-              For brands, organizations, and startups of all sizes.
+            <div className="hero-opening__support eyebrow text-foreground/90 mt-6 md:mt-8 text-[0.7rem] md:text-sm tracking-[0.18em]" data-no-reveal>
+              Pour les marques, les organisations et les startups de toutes tailles.
             </div>
 
             <div className="hero-opening__actions mt-8 md:mt-10 flex flex-wrap items-center gap-4" data-no-reveal>
               <a
                 href="#work"
-                className="group inline-flex items-center gap-3 rounded-full bg-background text-foreground pl-6 pr-2 py-2 text-base font-medium hover:bg-background/90 transition-colors"
+                className="group inline-flex items-center gap-3 rounded-full bg-foreground text-background pl-6 pr-2 py-2 text-base font-medium hover:bg-foreground/90 transition-colors"
               >
-                View Works
-                <span className="h-9 w-9 rounded-full bg-foreground text-background flex items-center justify-center group-hover:rotate-45 transition-transform">
+                Voir les réalisations
+                <span className="h-9 w-9 rounded-full bg-background text-foreground flex items-center justify-center group-hover:rotate-45 transition-transform">
                   ↗
                 </span>
               </a>
               <a
                 href="#contact"
-                className="inline-flex items-center gap-2 rounded-full bg-accent text-accent-foreground px-6 py-3 text-base font-medium hover:bg-background hover:text-foreground transition-colors"
+                className="inline-flex items-center gap-2 rounded-full bg-accent text-accent-foreground px-6 py-3 text-base font-medium hover:bg-foreground hover:text-background transition-colors"
               >
-                Request a quote
+                Demander un devis
               </a>
             </div>
           </div>
