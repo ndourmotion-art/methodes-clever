@@ -6,6 +6,8 @@
 
 ## Open
 - [x] Scroll-triggered motion for section texts (React site)
+- [x] Lighten and soften the navigation background
+- [x] Make all displayed media portable to GitHub Pages and Render
 
 ## Done
 - [x] WordPress one-page theme files (style.css, index.php, functions.php, header/footer/front-page, customizer)

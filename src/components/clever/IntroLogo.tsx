@@ -1,6 +1,7 @@
 import { useEffect } from "react";
+import { mediaUrl } from "@/lib/media";
 
-const logo = "/media/fabrique-logo.png";
+const logo = mediaUrl("fabrique-logo.png");
 
 type IntroLogoProps = {
   revealing: boolean;

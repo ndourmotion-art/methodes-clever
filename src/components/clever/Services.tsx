@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react";
 import { useReveal } from "@/hooks/useReveal";
-const activationMarque = { url: "/media/activation-marque.jpg" };
-const productionRealisation = { url: "/media/production-realisation.jpg" };
-const conceptionRedaction = { url: "/media/conception-redaction.jpg" };
-const brandingDeMarque = { url: "/media/branding-de-marque.jpg" };
-const designDynamique = { url: "/media/design-dynamique.jpg" };
-const designStatique = { url: "/media/design-statique.jpg" };
+import { mediaUrl } from "@/lib/media";
+
+const activationMarque = { url: mediaUrl("activation-marque.jpg") };
+const productionRealisation = { url: mediaUrl("production-realisation.jpg") };
+const conceptionRedaction = { url: mediaUrl("conception-redaction.jpg") };
+const brandingDeMarque = { url: mediaUrl("branding-de-marque.jpg") };
+const designDynamique = { url: mediaUrl("design-dynamique.jpg") };
+const designStatique = { url: mediaUrl("design-statique.jpg") };
 
 const services = [
   { title: "ACTIVATION DE MARQUE", image: activationMarque.url },

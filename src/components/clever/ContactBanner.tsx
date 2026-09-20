@@ -1,11 +1,11 @@
-import banniere4Asset from "@/assets/banniere-4.jpg.asset.json";
+import { mediaUrl } from "@/lib/media";
 
 export const ContactBanner = () => {
   return (
     <section className="py-8 md:py-12 bg-background">
       <div className="mx-auto max-w-[1600px] px-6 lg:px-10">
         <img
-          src={banniere4Asset.url}
+          src={mediaUrl("banniere-4.jpg")}
           alt="The FABRIQUE — Ayez de l'impact avec nous"
           className="w-full h-auto rounded-2xl"
           loading="lazy"

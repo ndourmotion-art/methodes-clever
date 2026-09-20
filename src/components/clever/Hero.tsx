@@ -1,4 +1,6 @@
-const heroAsset = { url: "/media/hero-swirl.jpg" };
+import { mediaUrl } from "@/lib/media";
+
+const heroAsset = { url: mediaUrl("hero-swirl.jpg") };
 
 const heroImage = heroAsset.url;
 
