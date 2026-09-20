@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-const logo = "/media/fabrique-logo.png";
 import { cn } from "@/lib/utils";
+import { mediaUrl } from "@/lib/media";
+
+const logo = mediaUrl("fabrique-logo.png");
 
 const links = [
   { label: "Réalisations", href: "#work" },
@@ -56,7 +58,7 @@ export const Nav = () => {
     <header
       className={cn(
         "fixed top-0 inset-x-0 z-50 transition-all duration-500",
-        scrolled ? "backdrop-blur-md bg-background/75 py-[18px] border-b border-foreground/10" : "py-6 bg-transparent"
+        scrolled ? "backdrop-blur-md bg-secondary/45 py-[18px] border-b border-foreground/10" : "py-6 bg-transparent"
       )}
     >
       <div className="w-full px-6 lg:px-10 flex items-center justify-between">
@@ -77,7 +79,7 @@ export const Nav = () => {
         </Link>
 
         <div className="hidden md:flex">
-          <nav className="flex items-center gap-1 rounded-full border border-foreground/10 bg-background/50 backdrop-blur px-2 py-1.5 opacity-85">
+          <nav className="flex items-center gap-1 rounded-full border border-foreground/10 bg-secondary/30 backdrop-blur-md px-2 py-1.5">
             {links.map((l) => (
               <a
                 key={l.href}
@@ -110,7 +112,7 @@ export const Nav = () => {
       </div>
 
       {open && (
-        <div className="md:hidden mx-6 mt-3 rounded-2xl bg-background border border-foreground/10 p-4 flex flex-col gap-1">
+        <div className="md:hidden mx-6 mt-3 rounded-2xl bg-secondary/70 backdrop-blur-md border border-foreground/10 p-4 flex flex-col gap-1">
           {links.map((l) => (
             <a
               key={l.href}
