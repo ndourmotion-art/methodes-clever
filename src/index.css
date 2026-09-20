@@ -343,8 +343,8 @@
   gap: 0.5rem;
   padding: 0.7rem 1.25rem;
   border-radius: 9999px;
-  background: hsl(0 0% 100%);
-  color: hsl(0 0% 13%);
+  background: hsl(var(--accent));
+  color: hsl(var(--accent-foreground));
   font-size: 0.85rem;
   font-weight: 700;
   text-transform: uppercase;
